@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+/* Estilo para que las imágenes no se deformen */
+.square-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Vista individual: centrado del contenido */
+.individual-view .gallery-item {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
